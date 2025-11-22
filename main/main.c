@@ -5,7 +5,7 @@
 void app_main(void)
 {
     while (true) {
-        printf("Hello from app_main!\n");
+        printf("\033[36mIhor - GAY!\033[31m\nWadzik - GAYDESTROYER!\033[0m\n");
         sleep(1);
     }
 }
