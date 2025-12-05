@@ -5,6 +5,6 @@ idf_component_register(
     SRCS main.c         # list the source files of this component
     INCLUDE_DIRS  "."      # optional, add here public include directories
     PRIV_INCLUDE_DIRS   # optional, add here private include directories
-    REQUIRES            rgbw-wad
+    REQUIRES            rgbw-wad nvs_flash esp_wifi bh1750 web_ui
     PRIV_REQUIRES       # optional, list the private requirements
 )
